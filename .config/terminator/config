@@ -1,0 +1,25 @@
+[global_config]
+  handle_size = 1
+  inactive_color_offset = 0.86
+  suppress_multiple_term_dialog = True
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    use_system_font = False
+    background_darkness = 0.92
+    background_image = None
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    font = Ubuntu Mono 12
+    background_color = "#2d2d2d"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
